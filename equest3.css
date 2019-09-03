@@ -301,3 +301,8 @@ div#reset {
   background:#0C9BCC!important;
   border-radius: 50%!important;
 }
+.checkLst input {
+  transform: scale(1.5);
+  margin-left: 8px;
+  margin-bottom: 4px;
+}
