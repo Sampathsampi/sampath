@@ -476,6 +476,16 @@ span#credit-card-logo > img {
   margin-right: 2%;
   height: 8px;
 }
+#payment-app > img {
+ display: none;
+}
+#gpay-app>img{
+  display: none;
+}
+#applepay-app>img{
+  display: none;
+}
+
 
 .order-summary {
   
@@ -483,6 +493,7 @@ span#credit-card-logo > img {
   margin-top: 31px;
 }
 }
+
 @media only screen and (max-width: 1200px){
   span#credit-card-logo {
       margin-left: 27%;
@@ -491,30 +502,44 @@ span#credit-card-logo {
   margin-left: 27%;
 }
 }
-@media only screen and (max-width:1496px){
-span#credit-card-logo > img {
-  margin-right: 2%;
-  height: 34px;
-}
-span#credit-card-logo {
-  margin-left: 27%;
-}
-}
+
 
 
 @media only screen and (max-width: 992px){
-  span#credit-card-logo > img {
-    
-    float: right;
-    height: 1.7rem;
+  section.container.bg-white.job-details {
+    margin-left: 54px;
+    width: 142%;
+    margin-top: 65px;
+}
+#payment-app > img {
+  display: none;
+}
+section.container.bg-white.job-details.mt-5 {
+  width: 99%!important;
+  margin-left: 132px;
+  padding: 45px 72px 24px 99px;
+  margin-top: 139px!important;
+}
+.top-section {
+  line-height: 35px;
+  margin-top: 140px;
+  font-size: 14px;
+  padding-top: 20px;
 }
 
+span#credit-card-logo > img {
+  margin-right: 2%;
+  height: 1.1rem;
 
-section.container.bg-white.job-details {
-
-margin-top: 132px;
 }
-
+@media only screen and (max-width: 1400px){
+span#credit-card-logo {
+  margin-left: 17%;
+}
+span#credit-card-logo > img {
+  margin-right: 2%;
+  height: 1.2rem;
+}
 }
 @media only screen and (max-width: 575px){
 section.container.bg-white.job-details.mt-5 {
@@ -528,8 +553,11 @@ section.container.bg-white.job-details.mt-5 {
   height: auto;
 }
 span#credit-card-logo > img {
-
-display: none;
+  margin-right: 2%;
+  height: 8px;
+}
+span#credit-card-logo {
+  margin-left: 40%;
 }
 span#payment-app>img {
 display: none;
@@ -632,7 +660,15 @@ span#applepay-app>img {
 
 section.container.bg-white.job-details {
 margin-left: 54px;
-width: 90%;
+width: 142%;
 margin-top: 65px;
 }}
-
+@media only screen and (max-width: 945px){
+span#credit-card-logo > img {
+  margin-right: 2%;
+  height: 8px;
+}
+span#credit-card-logo {
+  margin-left: 10px;
+}
+}
